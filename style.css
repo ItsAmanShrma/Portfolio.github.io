@@ -139,8 +139,8 @@ nav ul li a{
   text-decoration: none;
   color: white;
 }
-nav ul li a:hover{
-  color: blueviolet;
+nav ul li a :hover{
+  color: rgb(220, 206, 233);
 }
 
 .left {
