@@ -32,14 +32,28 @@
   <main>
     <section class="firstsection">
       <div class="leftsection">
-        Hi, My Name is <span class="purpule">Aman</span>
+        Hi, My Name is <span class="purpule"><span id="aman"></span></span>
         <div>and I'm a passionate Web Developer</div>
+        <span id="element"></span>
       </div>
       <div class="rightsection">
         <img src="bg.png" alt="Aman" />
       </div>
     </section>
   </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>i like Codeing</i>.', '&amp; Graphics Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    var typed = new Typed('#aman', {
+      strings: ['<i>Aman</i>'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 
 </html>

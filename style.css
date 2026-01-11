@@ -112,7 +112,7 @@
 }
 
 body {
-  background-color: rgb(23, 23, 57);
+  background-image: linear-gradient(135deg, #153677, #ffffff);
   color: white;
   font-family: "poppins", sans-serif;
 }
@@ -139,8 +139,9 @@ nav ul li a{
   text-decoration: none;
   color: white;
 }
-nav ul li a :hover{
-  color: rgb(220, 206, 233);
+nav ul li a:hover{
+  color: rgb(186, 30, 197);
+  font-size: 1.1rem;
 }
 
 .left {
@@ -154,15 +155,12 @@ nav ul li a :hover{
 }
 
 .firstsection > div {
-  width: 502px;
+  width: 531px;
 }
 
 .leftsection {
   font-size: 3rem;
   margin: 30px 0;
-}
-
-.rightsection {
 }
 
 .rightsection img {
