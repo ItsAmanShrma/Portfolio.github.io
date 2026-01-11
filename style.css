@@ -135,6 +135,13 @@ nav ul li {
   margin: 0 23px;
   cursor: pointer;
 }
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  color: blueviolet;
+}
 
 .left {
   font-size: 1.5rem;
