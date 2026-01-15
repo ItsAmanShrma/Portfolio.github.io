@@ -76,3 +76,41 @@ nav ul li a:hover{
   color: blueviolet;
 }
 
+#intro {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#intro-logo {
+  width: 150px;
+  animation: scaleAndBlur 2s ease-in-out forwards;
+}
+
+
+/* Keyframes for animation */
+@keyframes scaleAndBlur {
+  0% {
+    transform: scale(0.5);
+    filter: blur(8px);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.4);
+    filter: blur(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
